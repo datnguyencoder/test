@@ -8,6 +8,9 @@ public class TestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestApplication.class, args);
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Hello World!");
+		}
 	}
 
 }
